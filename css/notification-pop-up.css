@@ -1,0 +1,200 @@
+/* screen - notification-pop-up */
+
+.notification-pop-up {
+  align-items: flex-start;
+  background-color: #00000080;
+  display: flex;
+  height: 982px;
+  width: 1512px;
+}
+
+#overlay-notification-pop-up {
+  background-color: #00000080;
+}
+
+.overlay .notification-pop-up {
+  background-color: #00000000;
+}
+
+.notification-pop-up .notification-pop-up-1 {
+  align-items: flex-start;
+  background-color: #ffc700;
+  display: flex;
+  height: 721px;
+  left: calc(50vw - 427.0px);
+  padding: 22px 23px;
+  position: relative;
+  top: calc(50vh - 360.5px);
+  width: 854px;
+}
+
+.notification-pop-up .icon-close {
+  cursor: pointer;
+  height: 51px;
+  width: 51px;
+}
+
+.notification-pop-up .flex-col {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18.0px;
+  margin-left: 174px;
+  min-height: 607px;
+  width: 358px;
+}
+
+.notification-pop-up .group {
+  height: 82px;
+  margin-right: 15.33px;
+  width: 109px;
+}
+
+.notification-pop-up .tittle {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 50.1px;
+  font-weight: 700;
+  letter-spacing: 1.00px;
+  margin-right: 15.0px;
+  margin-top: 26px;
+  min-height: 61px;
+  min-width: 291px;
+  text-align: center;
+}
+
+.notification-pop-up .paragraph {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 22.8px;
+  font-weight: 400;
+  letter-spacing: 0.46px;
+  line-height: 39.1px;
+  margin-top: 23px;
+  min-height: 79px;
+  text-align: center;
+  width: 358px;
+}
+
+.notification-pop-up .user-name {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  line-height: 14px;
+  margin-left: 17px;
+  margin-top: 24px;
+  min-height: 14px;
+  white-space: nowrap;
+}
+
+.notification-pop-up .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0.7px solid var(--black);
+  border-radius: 4px;
+  display: flex;
+  height: 48px;
+  margin-left: 3.0px;
+  margin-top: 17px;
+  min-width: 327px;
+  padding: 15.3px;
+}
+
+.notification-pop-up .enter-username {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  line-height: 14px;
+  min-height: 14px;
+  white-space: nowrap;
+}
+
+.notification-pop-up .password {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  line-height: 14px;
+  margin-left: 17px;
+  margin-top: 15px;
+  min-height: 14px;
+  white-space: nowrap;
+}
+
+.notification-pop-up .enter-password {
+  color: var(--eerie-black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  line-height: 14px;
+  min-height: 14px;
+  min-width: 99px;
+  white-space: nowrap;
+}
+
+.notification-pop-up .bieye-slash-fill {
+  align-self: center;
+  height: 16px;
+  margin-left: 180px;
+  margin-top: 0.6px;
+  width: 16px;
+}
+
+.notification-pop-up .optional {
+  color: transparent;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  letter-spacing: 0.24px;
+  line-height: 13px;
+  margin-right: 17.0px;
+  margin-top: 40px;
+  min-height: 13px;
+  min-width: 181px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.notification-pop-up .span0 {
+  color: #1e3354;
+}
+
+.notification-pop-up .span1 {
+  color: #092c4c;
+}
+
+.notification-pop-up .span2 {
+  color: #3ad4e0;
+}
+
+.notification-pop-up .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--black);
+  border-radius: 4px;
+  display: flex;
+  height: 52px;
+  margin-right: 15.0px;
+  margin-top: 34px;
+  min-width: 327px;
+  padding: 15px 134px;
+}
+
+.notification-pop-up .sign-up {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  height: 21px;
+  letter-spacing: 0.28px;
+  min-width: 56px;
+  text-align: center;
+}
